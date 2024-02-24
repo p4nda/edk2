@@ -1,7 +1,7 @@
 [submodule "CryptoPkg/Library/OpensslLib/openssl"]
     path = CryptoPkg/Library/OpensslLib/openssl
     url = https://github.com/openssl/openssl
-    branch = OpenSSL_1_1_1-stable
+    branch = openssl-3.0
 [submodule "SoftFloat"]
     path = ArmPkg/Library/ArmSoftFloatLib/berkeley-softfloat-3
     url = https://github.com/ucb-bar/berkeley-softfloat-3.git
@@ -9,7 +9,7 @@
 [submodule "UnitTestFrameworkPkg/Library/CmockaLib/cmocka"]
     path = UnitTestFrameworkPkg/Library/CmockaLib/cmocka
     url = https://git.cryptomilk.org/projects/cmocka.git
-    branch = master
+    branch = stable-1.1
 [submodule "MdeModulePkg/Universal/RegularExpressionDxe/oniguruma"]
     path = MdeModulePkg/Universal/RegularExpressionDxe/oniguruma
     url = https://github.com/kkos/oniguruma
@@ -46,4 +46,4 @@
 [submodule "CryptoPkg/Library/MbedTlsLib/mbedtls"]
     path = CryptoPkg/Library/MbedTlsLib/mbedtls
     url = https://github.com/Mbed-TLS/mbedtls
-    branch = master
+    branch = development
